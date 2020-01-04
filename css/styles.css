@@ -1,0 +1,43 @@
+.div1{background-color:#EAF6F6;
+      margin-bottom: 100px;
+     position: relative;padding-top: 100px;}
+body  {margin: 0px;text-align: center;font-family: 'Kulim Park', sans-serif;color: #66BFBF;line-height: 0.95;color: #40514E;}
+h2{color: #66BFBF;}
+h3{color: #11999E;line-height: 1.5;}
+a{color: #11999E;font-family: 'Kulim Park', sans-serif;margin-left: 10px;margin-right: 10px;text-decoration: none;}
+a:hover{color:#EAF6F6;}
+h1{margin: 0px auto;width: 20%;font-family: 'Girassol', cursive;font-size: 3.25rem;}
+.div2{}
+.div3{background-color:#66BFBF;height: 100px;padding-top: 25px;margin-top: 25px;}
+.bottom-cloud{position: absolute;left: 300px}
+.top-cloud{position: absolute;;right: 300px;top: 50px;}
+.skill-row{width: 50%;margin:100px auto;text-align: left;line-height: 2;margin-top: 50px;}
+.skill-img1{width: 25%;float: left;margin-right: 30px;}
+.skill-img2{width: 25%;float: right;;margin-left: 30px;}
+hr{border: dotted #3e206d 6px;
+border-bottom: none;width: 4%;margin: 100px auto;}
+
+.btn{
+	box-shadow:inset 0px 1px 0px 0px #3dc21b;
+	background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+	background-color:#44c767;
+	border-radius:12px;
+	border:2px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+	&:hover {
+	background:linear-gradient(to bottom, #5cbf2a 5%, black 100%);
+	background-color:#5cbf2a;
+}
+ &:active {
+	position:relative;
+	top:1px;
+}
+ }
